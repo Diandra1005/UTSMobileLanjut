@@ -15,6 +15,7 @@
  */
 package com.example.unscramble.ui
 
+
 /**
  * Data class that represents the game UI state
  */

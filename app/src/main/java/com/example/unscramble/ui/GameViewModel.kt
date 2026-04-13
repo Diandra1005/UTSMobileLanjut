@@ -37,6 +37,7 @@ class GameViewModel : ViewModel() {
     private val _uiState = MutableStateFlow(GameUiState())
     val uiState: StateFlow<GameUiState> = _uiState.asStateFlow()
 
+
     var userGuess by mutableStateOf("")
         private set
 
